@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- Background -->
+  <rect width="512" height="512" fill="white" rx="64" />
+  
+  <!-- Tic-tac-toe grid -->
+  <line x1="171" y1="0" x2="171" y2="512" stroke="black" stroke-width="12" />
+  <line x1="341" y1="0" x2="341" y2="512" stroke="black" stroke-width="12" />
+  <line x1="0" y1="171" x2="512" y2="171" stroke="black" stroke-width="12" />
+  <line x1="0" y1="341" x2="512" y2="341" stroke="black" stroke-width="12" />
+  
+  <!-- X marks -->
+  <line x1="45" y1="45" x2="125" y2="125" stroke="black" stroke-width="20" stroke-linecap="round" />
+  <line x1="125" y1="45" x2="45" y2="125" stroke="black" stroke-width="20" stroke-linecap="round" />
+  
+  <line x1="385" y1="215" x2="465" y2="295" stroke="black" stroke-width="20" stroke-linecap="round" />
+  <line x1="465" y1="215" x2="385" y2="295" stroke="black" stroke-width="20" stroke-linecap="round" />
+  
+  <line x1="215" y1="385" x2="295" y2="465" stroke="black" stroke-width="20" stroke-linecap="round" />
+  <line x1="295" y1="385" x2="215" y2="465" stroke="black" stroke-width="20" stroke-linecap="round" />
+  
+  <line x1="385" y1="385" x2="465" y2="465" stroke="black" stroke-width="20" stroke-linecap="round" />
+  <line x1="465" y1="385" x2="385" y2="465" stroke="black" stroke-width="20" stroke-linecap="round" />
+  
+  <!-- O marks -->
+  <circle cx="256" cy="85" r="45" stroke="black" stroke-width="20" fill="none" />
+  <circle cx="85" cy="256" r="45" stroke="black" stroke-width="20" fill="none" />
+</svg> 
